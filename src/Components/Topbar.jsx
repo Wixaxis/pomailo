@@ -4,9 +4,7 @@ import {LogoStyle, TopbarStyledDiv} from "./styled"
 const Topbar = ({greetingMessage}) => { 
   return (
     <TopbarStyledDiv>
-        <LogoStyle>
-            <img src="../library/images/pomelo-icon.png" alt="there's nothing here" />
-        </LogoStyle>
+        <LogoStyle/>
         <div>
         {greetingMessage}
         </div>
